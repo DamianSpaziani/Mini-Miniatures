@@ -1,0 +1,235 @@
+body {
+  background-color: #F5F5F5;
+}
+
+h1 {
+  background-color: #B1DDFF;
+  color: black;
+  text-align: center;
+  font-family: "Monotype Corsiva", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+}
+
+.title { 
+  background-color: #F5F5F5;
+  color: black;
+  text-align: center;
+  font-family: "Monotype Corsiva", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+}
+
+section {
+  background-color: #F5F5F5;
+}
+
+.top-logo {
+width: 100%
+}
+.box {
+  background-color: white;
+  max-width: 550px;
+  border: 25px solid black;
+  padding: 25px;
+  margin: 25px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+
+p {
+  font-size: 0.8em;
+  text-align: justify;
+  padding: 0.2em 0.4em 0.5em 0.4em;
+  line-height: 1.5;
+}
+
+
+.expand-icon {
+  display: none;
+}
+
+.top-menu {
+  width: 2em;
+  height: 2em;
+  padding: none;
+}
+
+
+
+.search-bar {
+  display: grid;
+  grid-template-columns: auto 1.5em;
+  background-color: rgb(88, 8, 8);
+  height: 2em;
+  padding: 0.1em;
+}
+
+.search-rounded {
+  width: 50%;
+  height: 1.6em;
+  border-radius: 1em;
+  background-color: rgb(70, 69, 69);
+  grid-column: 1/3;
+  border: none;
+  margin: auto;
+  position: relative;
+}
+
+.menu-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.1em;
+  padding: 0.2em;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+ .not-available {
+  color: red; 
+  text-decoration: #EB5771 underline; 
+}
+
+.no-price {
+  text-decoration: line-through;
+  font-family: "crimson text", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  text-align: center;
+  color: #725368;
+}
+
+.product-pic {
+    background-color: #F5F5F5;
+    padding: 1em;
+}
+
+.product-des a{
+  padding-top: 0.5em;
+  display: block;
+  font-family: "Monotype Corsiva", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  text-decoration: none;
+  text-align: center;
+  color:#725368;
+
+}
+.product {
+  height: 70vw;
+  overflow: hidden;
+  margin: auto;
+  padding: 0.2em;
+  object-fit: fill;
+}
+
+.product-list {
+    padding: 0 1em;
+    display: grid;
+    grid-gap: 1em;
+}
+
+
+
+.price {
+  font-family: "crimson text", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  text-align: center;
+  color: #640707;
+}
+
+.load-more {
+  margin: 1em auto;
+  padding: 0.2em;
+  width: 100%;
+  text-align: center;
+}
+
+.view-next {
+  height: 1.8em;
+  background-color: rgb(245, 6, 6);
+  border: none;
+  border-radius: 0.5em;
+}
+
+.view-next a{
+  font-family: "crimson text", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+}
+
+.loadBnt {
+  visibility: hidden;
+}
+
+.email {
+  display: grid;
+  grid-template-columns: auto 1.5em;
+}
+
+.join-button {
+  border: none;
+  background-color: #EFD2AD;;
+  color:  #355C7D;
+  padding: 0.3em;
+  position: absolute;
+  right: 0;
+  border-radius: 1em;
+  font-size: 0.8;
+}
+
+.social-media-menu {
+  padding: 0.4em 0.2em;
+}
+
+.inline {
+  display: inline-block;
+  text-align: left;
+}
+
+
+
+.icon {
+  width: 1.1em;
+  height: 1.2em;
+}
+
+.inline-none {
+  display: none;
+}
+
+.inline-none a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-family: "mongolian baiti","Times New Roman", Times, serif;
+}
+
+.bottom-bar .inline a {
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "mongolian baiti","Times New Roman", Times, serif;
+}
+
+.footer-menu .inline a {
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "mongolian baiti","Times New Roman", Times, serif;
+}
+
+.footer-menu {
+  padding: 3em 0.2em 0.2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  grid-gap: 0.1em;
+}
+
+
+.item {
+  padding:0.2em;
+  display: grid;
+  grid-template-columns: 1fr 5em;
+}

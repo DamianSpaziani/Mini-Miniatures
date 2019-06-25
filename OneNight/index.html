@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mini's</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul class="topbar">
+        </li>
+        <li class="top-logo"><a href="index.html"><img src="img/horus.jpg" alt="logo" class="logo"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <section>
+      <form class="search-bar" id="search">
+        <input  type="search" name="query" autocomplete="off" class="search-rounded" placeholder="search">
+        <button type="submit" class="search-button"></button>
+      </form>
+
+      <div class="menu-main" >
+        <div class="item-inline">Sort By:</div>
+        <button class="item-inline" id="btnArmys"> Armies </button>
+        <button class="item-inline" id="btnPrice"> Price </button>
+        <button class="item-inline" id="btnStock"> Instock </button>
+      </div>
+    </section>
+
+    <h1 id="title" class="title"></h1>
+
+    <form id="armyRange">
+      <input class="item-inline" type="radio" name="pop" value="1" id="pop1"> <label for="pop1">Chaos</label>
+      <input class="item-inline" type="radio" name="pop" value="2" id="pop2"> <label for="pop2">Xenos</label>
+      <input class="item-inline" type="radio" name="pop" value="3" id="pop3"> <label for="pop3">Imperium</label>
+    </form>
+
+    <article class="item-list">
+      <section> 
+        <ul class="product-list" id="productA">
+        </ul>
+        <div class="load-more"><button class="view-next" id="viewProduct">View Products</button></div>
+      </section> 
+    </article>
+  </main>
+
+  <footer>
+    </footer>
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+    <script src="js/main.js"></script>
+  </body>
+  </html>
